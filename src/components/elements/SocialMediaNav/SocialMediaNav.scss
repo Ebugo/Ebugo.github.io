@@ -1,12 +1,11 @@
 .socialmedia-nav-sty-cover {
     color: white;
-    height: 50vh;
     width: 3vw;
     position: fixed;
     left: 1vh;
-    top: 25%;
     padding: 0;
-    z-index: 10;
+    bottom: 10px;
+    z-index: 100;
     margin: 0;
     h5 {
         color: #81AFC5;
@@ -79,9 +78,17 @@
                 justify-content: center;
                 align-items: center;
                 div {
+                    &:hover .social-name{
+                        display: none;
+                     }
                     img {
                         width: 75%;
                         height: 75%;
+                        &:hover {
+                            -webkit-filter: none;
+                            filter: none;
+                            transform: none;
+                        }
                     }
                 }
             }

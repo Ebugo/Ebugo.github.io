@@ -11,7 +11,6 @@ const SocialMediaNav = ({style}) => {
     } 
     return (
         <div className="socialmedia-nav-sty-cover" style={style}>
-            <h5>Connect</h5>
             <div className="social">
                 <div onClick={openSocial} className="github">
                     <span className="mt-2 social-name">github</span>

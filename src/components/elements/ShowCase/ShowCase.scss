@@ -1,0 +1,11 @@
+.showcase-sty-cover {
+    color: white;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+    // padding-top: 50px;
+    @media(max-width: 768px) {
+        // padding-top: 70px;
+    }
+}

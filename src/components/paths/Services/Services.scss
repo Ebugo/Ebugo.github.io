@@ -1,0 +1,75 @@
+.services-sty-cover {
+    color: white;
+    height: 80vh;
+    width: 100%;
+    padding-top: 8vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    .heading {
+        text-align: center;
+        height: 5vh;
+        h3 {
+            font-size: 3.5vh;
+            text-decoration: underline;
+            text-decoration-color: #e83e8c;
+            text-underline-position: under;
+        }
+    }
+    .services {
+        height: 60vh;
+        .block-1, .block-2 {
+            height: 30vh;
+        }
+        h5 {
+            font-size: 2.8vh;
+            text-align: center;
+        }
+        p {
+            font-size: 2.4vh;
+            text-align: justify;
+        }
+    }
+    @media(max-width: 768px) {
+        padding-top: 15vh;
+        
+        .services {
+            .block-1, .block-2 {
+                height: 30vh;
+            }
+            h5 {
+                font-size: 2.5vh;
+            }
+            p {
+                font-size: 2vh;
+            }
+        }
+    }
+    @media(max-width: 500px) {
+            .services {   
+                .block-1, .block-2 {
+                    height: 28vh;
+                    padding: 0;
+                }
+                h5 {
+                    font-size: 2.2vh;
+                }
+                p {
+                    font-size: 1.8vh;
+                }
+            }
+    }
+    @media(max-width: 410px) {
+        // padding-top: 70px;
+        .heading h3 {
+            font-size: 3.5vh;
+        }
+        .services {   
+            h5 {
+                font-size: 2vh;
+            }
+            p {
+                font-size: 1.6vh;
+            }
+        }
+    }
+}

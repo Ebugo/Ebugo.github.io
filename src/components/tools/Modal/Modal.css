@@ -1,0 +1,74 @@
+.modal-sty {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  color: white;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  visibility: visible;
+}
+
+.modal-sty .modal-body {
+  height: 20vh;
+  background: white;
+  border-radius: 0.5vh;
+  width: 36.6vw;
+  /* 36.6vw 500px */
+  top: 50%;
+  left: 50%;
+  margin-top: -45.08vh;
+  /* Negative half of height. 15.08vh 100px*/
+  margin-left: -18.3vw;
+  /* Negative half of width. 18.3vw 250px*/
+  color: #252525;
+}
+
+.modal-sty .modal-body .modal-title h5 {
+  font-size: 2vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-sty .modal-body .modal-middle p {
+  color: #252525;
+  font-weight: 600;
+  border: 0px;
+  font-size: 2vh;
+}
+
+.modal-sty .modal-body button {
+  padding: 0.5vh;
+  margin: 0;
+  border-color: #252525;
+  color: #252525 !important;
+  background: none !important;
+  font-weight: 500;
+}
+
+.modal-sty .modal-body .btn.active.focus, .modal-sty .modal-body .btn.active:focus, .modal-sty .modal-body .btn.focus, .modal-sty .modal-body .btn.focus:active, .modal-sty .modal-body .btn:active:focus, .modal-sty .modal-body .btn:focus {
+  outline: 0 !important;
+  outline-offset: 0  !important;
+  background-image: none  !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none  !important;
+}
+
+@media (max-width: 950px) {
+  .modal-sty .modal-body {
+    height: 23.5vh;
+    width: 56.6vw;
+    /* 36.6vw 500px */
+    margin-left: -28.3vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .modal-sty .modal-body {
+    width: 80.6vw;
+    /* 36.6vw 500px */
+    margin-left: -40.3vw;
+  }
+}
+/*# sourceMappingURL=Modal.css.map */

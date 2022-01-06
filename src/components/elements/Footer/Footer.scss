@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+.footer-sty-cover {
+    color: white;
+    position: fixed;
+    height: 15.1vh;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    flex: initial;
+    justify-content: space-around;
+    .page-number {
+        h1 {
+            margin-top: 0.5vh;
+            text-align: center;
+            font-size: 10vh;
+        }
+    }
+    .testimonials {
+        height: 100%;
+
+        a  {
+            text-decoration: none;
+            p {
+                color: white;
+                font-family: 'Quantico', sans-serif !important;
+            }
+        }
+        blockquote {
+            font-size: 1.7vh;
+            margin: 2vh 1vh 0vh 0vh;
+            color: white;
+            span {
+                font-size: 2vh;
+                // font-family: 'Long Cang', cursive;
+                font-family: 'Quantico', sans-serif !important;
+            }
+        }
+        
+        p {
+            font-size: 1.7vh;
+            margin: 0;
+            color: white;
+            padding: 0;
+            font-family: 'Quantico', sans-serif !important;
+        }
+        a p:hover {
+            color: #e83e8c;
+        }
+    }
+    .recommendation-cover {
+        height: 100%;
+        p{
+            text-align: right;
+            font-size: 2vh;
+            font-family: 'Quantico', sans-serif !important;
+        }
+        .link {
+            text-align: right;
+        }
+        span {
+            font-size: 1.5vh;
+            cursor: pointer;
+            text-decoration: underline;
+            text-underline-position: under;
+            text-decoration-color: white;
+            font-family: 'Quantico', sans-serif !important;
+        }
+    
+        span:hover {
+            color: #e83e8c;
+            transform: scale(1.000);
+            transform: scale(1.000);
+        }
+        .copy-right {
+            color: white !important;
+            text-align: right;
+            font-size: 1.5vh;
+            text-decoration: none;
+        }
+
+    }
+    @media(max-width: 950px) {
+        height: 14.1vh;
+        .recommendation-cover {
+            padding: 0;
+        }
+    }
+    @media(max-width: 768px) {
+
+        .testimonials {
+            display: none;
+            blockquote {
+                font-size: 1.8vh;
+                margin: 0vh 1vh 0vh 0vh;
+                span {
+                    font-size: 3vh;
+                }
+            }
+        }
+        .page-number {
+            display: none;
+        }
+        .copy-right {
+            font-size: 1.0vh;
+            margin-top: 20px !important;
+            text-align: center !important;
+        }
+        .recommendation-cover {
+            p{
+                text-align: center !important;
+            }
+            .link {
+                text-align: center;
+            }
+            span {
+                text-align: center;
+            }
+        }
+     }
+    @media(max-width: 550px) {
+
+       
+    }
+    @media(max-width: 500px) {
+        height: 16.1vh;
+        
+     }
+    
+}

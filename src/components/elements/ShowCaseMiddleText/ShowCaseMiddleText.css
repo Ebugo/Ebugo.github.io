@@ -1,0 +1,98 @@
+.showcasemiddle-text-sty-cover {
+  text-align: center;
+  width: 100%;
+  color: white;
+  top: 34%;
+  padding: 10px 0px 10px 0px;
+  left: 0;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.showcasemiddle-text-sty-cover h1 {
+  font-size: 10vh;
+  font-family: 'Quantico', sans-serif;
+}
+
+.showcasemiddle-text-sty-cover p {
+  margin: 0;
+  font-size: 2.5vh;
+  font-family: 'Quantico', sans-serif;
+}
+
+.showcasemiddle-text-sty-cover .title {
+  margin-bottom: 2vh;
+}
+
+.showcasemiddle-text-sty-cover button {
+  border-right: 0.13vh solid #e83e8c;
+  border-bottom: 0.13vh solid #e83e8c;
+  -webkit-box-shadow: 0.66vh 0.66vh #e6e6e6;
+          box-shadow: 0.66vh 0.66vh #e6e6e6;
+  border-radius: 0.66vh;
+  background: none;
+  height: 5vh;
+  width: 12vw;
+  font-size: 2vh;
+  color: white;
+  font-family: 'Quantico', sans-serif;
+  margin-top: 0.26vh;
+}
+
+.showcasemiddle-text-sty-cover button:hover {
+  border-right: 0.13vh solid white;
+  border-bottom: 0.13vh solid white;
+  border-left: 0.13vh solid #e83e8c;
+  border-top: 0.13vh solid #e83e8c;
+  background: none;
+  color: #e83e8c;
+}
+
+@media (max-width: 1200px) {
+  .showcasemiddle-text-sty-cover button {
+    height: 5vh;
+    width: 24vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .showcasemiddle-text-sty-cover {
+    top: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .showcasemiddle-text-sty-cover h1 {
+    font-size: 6vh;
+  }
+  .showcasemiddle-text-sty-cover button {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .showcasemiddle-text-sty-cover h1 {
+    font-size: 6vh;
+  }
+  .showcasemiddle-text-sty-cover p {
+    font-size: 2.2vh;
+  }
+  .showcasemiddle-text-sty-cover button {
+    height: 5vh;
+    width: 50vw;
+    font-size: 2.2vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .showcasemiddle-text-sty-cover h1 {
+    font-size: 5vh;
+  }
+  .showcasemiddle-text-sty-cover p {
+    font-size: 1.5vh;
+  }
+  .showcasemiddle-text-sty-cover button {
+    width: 45vw;
+  }
+}
+/*# sourceMappingURL=ShowCaseMiddleText.css.map */

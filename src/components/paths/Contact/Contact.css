@@ -1,0 +1,94 @@
+.contact-sty-cover {
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding-top: 8vh;
+}
+
+.contact-sty-cover .heading {
+  text-align: center;
+  height: 5vh;
+}
+
+.contact-sty-cover .heading h3 {
+  font-size: 3.5vh;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e83e8c;
+          text-decoration-color: #e83e8c;
+  text-underline-position: under;
+}
+
+.contact-sty-cover .contact-grid {
+  height: 70vh;
+}
+
+.contact-sty-cover .contact-grid .contact-info {
+  height: 100%;
+  color: white;
+}
+
+.contact-sty-cover .contact-grid .contact-info p {
+  font-size: 2vh;
+}
+
+.contact-sty-cover .contact-grid .contact-info span {
+  color: #e83e8c;
+  font-weight: bold;
+  font-family: "SpecialElite-Regular";
+  cursor: pointer;
+}
+
+.contact-sty-cover .contact-grid .contact-info span:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.contact-sty-cover .contact-grid .contact-form {
+  height: 100%;
+}
+
+.contact-sty-cover .contact-grid .contact-form form button {
+  border-color: #e83e8c;
+  background: none;
+  color: white;
+  -webkit-box-shadow: 5px 5px #494949;
+          box-shadow: 5px 5px #494949;
+  font-weight: bold;
+  font-family: "SpecialElite-Regular";
+}
+
+.contact-sty-cover .contact-grid .contact-form form button:hover {
+  border-color: white;
+  color: #e83e8c;
+}
+
+.contact-sty-cover .contact-grid .contact-form form button:active {
+  border-color: white;
+  color: #e83e8c;
+  background: none;
+}
+
+.contact-sty-cover .contact-grid .contact-form form button:focus {
+  border-color: white;
+  color: #e83e8c;
+  background: none;
+}
+
+@media (max-width: 991px) {
+  .contact-sty-cover .contact-grid .contact-info {
+    height: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-sty-cover {
+    padding-top: 15vh;
+  }
+  .contact-sty-cover .contact-grid {
+    height: 55vh;
+  }
+  .contact-sty-cover .contact-grid .contact-info p {
+    font-size: 1.5vh;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

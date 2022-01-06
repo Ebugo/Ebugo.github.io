@@ -1,0 +1,25 @@
+{
+  "short_name": "Ebugo",
+  "name": "Ebugo Personal App",
+  "icons": [
+    {
+      "src": "images/logo/favicon-96x96.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "images/logo/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/logo/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

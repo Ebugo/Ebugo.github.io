@@ -1,0 +1,94 @@
+.socialmedia-nav-sty-cover {
+    color: white;
+    height: 50vh;
+    width: 3vw;
+    position: fixed;
+    left: 1vh;
+    top: 25%;
+    padding: 0;
+    z-index: 10;
+    margin: 0;
+    h5 {
+        color: #e83e8c;
+        font-size: 2vh;
+        font-weight: normal;
+        height: 2.14vh;
+        font-family: 'Quantico', sans-serif;
+    }
+    .social {
+        color: white;
+        
+        div {
+            // border-bottom: 1px solid white;
+            border-radius: 50%;
+            height: 7.14vh;
+            cursor: pointer;
+            .social-name {
+                font-size: 2vh;
+                position: absolute;
+                margin-left: 5.3vw;
+                display: none;
+            }
+            &:hover .social-name{
+                opacity: 0.5;
+                display: block;
+             }
+            img {
+                width: 80%;
+                height: 80%;
+                -webkit-filter: invert(100%);
+                filter: invert(100%);
+                transition: 0.2s all ease;
+                &:hover {
+                    width: 6vw;
+                    -webkit-filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
+                    filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
+                    transform: scale(1.000);
+                }
+                
+            }
+        }
+        // .whatsapp {
+        //     //border-bottom: 1px !important;
+        // }
+    }
+  }
+  @media(max-width: 1200px) {
+        .socialmedia-nav-sty-cover {
+            width: 4vw;
+            .social {
+                div {
+                    .social-name {
+                        margin-left: 6.7vw;
+                    }
+                }
+            }
+        }
+    }
+  @media(max-width: 768px) {
+        .socialmedia-nav-sty-cover {
+            width: 100%;
+            height: 0vh;
+            left: 0vh;
+            position: relative;
+            h5 {
+                display: none;
+            }
+            .social {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                div {
+                    img {
+                        width: 75%;
+                        height: 75%;
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width: 630px) {
+        .socialmedia-nav-sty-cover {
+            width: 100%;
+        }
+    }

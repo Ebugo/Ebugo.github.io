@@ -1,0 +1,71 @@
+.services-sty-cover {
+  color: white;
+  height: 80vh;
+  width: 100%;
+  padding-top: 8vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.services-sty-cover .heading {
+  text-align: center;
+  height: 5vh;
+}
+.services-sty-cover .heading h3 {
+  font-size: 3.5vh;
+  text-decoration: underline;
+  text-decoration-color: #e83e8c;
+  text-underline-position: under;
+}
+.services-sty-cover .services {
+  height: 60vh;
+}
+.services-sty-cover .services .block-1, .services-sty-cover .services .block-2 {
+  height: 30vh;
+}
+.services-sty-cover .services h5 {
+  font-size: 2.8vh;
+  text-align: center;
+}
+.services-sty-cover .services p {
+  font-size: 2.4vh;
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .services-sty-cover {
+    padding-top: 15vh;
+  }
+  .services-sty-cover .services .block-1, .services-sty-cover .services .block-2 {
+    height: 30vh;
+  }
+  .services-sty-cover .services h5 {
+    font-size: 2.5vh;
+  }
+  .services-sty-cover .services p {
+    font-size: 2vh;
+  }
+}
+@media (max-width: 500px) {
+  .services-sty-cover .services .block-1, .services-sty-cover .services .block-2 {
+    height: 28vh;
+    padding: 0;
+  }
+  .services-sty-cover .services h5 {
+    font-size: 2.2vh;
+  }
+  .services-sty-cover .services p {
+    font-size: 1.8vh;
+  }
+}
+@media (max-width: 410px) {
+  .services-sty-cover .heading h3 {
+    font-size: 3.5vh;
+  }
+  .services-sty-cover .services h5 {
+    font-size: 2vh;
+  }
+  .services-sty-cover .services p {
+    font-size: 1.6vh;
+  }
+}
+
+/*# sourceMappingURL=Services.css.map */

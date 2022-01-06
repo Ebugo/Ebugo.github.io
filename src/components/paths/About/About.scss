@@ -1,0 +1,57 @@
+.abt-sty-cover {
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding-top: 8vh;
+    .heading {
+        text-align: center;
+        height: 5vh;
+    }
+    .heading h3 {
+        font-size: 3.5vh;
+        text-decoration: underline;
+        text-decoration-color: #e83e8c;
+        text-underline-position: under;
+    }
+    .about-me {
+        height: 60vh;
+        border-color: grey !important;
+        article {
+            text-align: justify;
+            line-height: 4.2vh;
+            font-size: 2.4vh;
+        }
+    }
+    @media(max-width: 885px) {
+        // padding-top: 70px;
+        .about-me {
+            article {
+                text-align: justify;
+                line-height: 3.2vh;
+                font-size: 2.5vh;
+            }
+        }
+    }
+    @media(max-width: 768px) {
+        padding-top: 15vh;
+    }
+    @media(max-width: 500px) {
+        // padding-top: 70px;
+        .about-me {
+            article {
+                text-align: justify;
+                line-height: 3vh;
+                font-size: 2vh;
+            }
+        }
+    }
+    @media(max-width: 370px) {
+        .about-me {
+            article {
+                text-align: justify;
+                line-height: 2.5vh;
+                font-size: 1.9vh;
+            }
+        }
+    }
+}

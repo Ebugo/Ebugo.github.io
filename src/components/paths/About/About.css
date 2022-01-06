@@ -1,0 +1,61 @@
+.abt-sty-cover {
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding-top: 8vh;
+}
+
+.abt-sty-cover .heading {
+  text-align: center;
+  height: 5vh;
+}
+
+.abt-sty-cover .heading h3 {
+  font-size: 3.5vh;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e83e8c;
+          text-decoration-color: #e83e8c;
+  text-underline-position: under;
+}
+
+.abt-sty-cover .about-me {
+  height: 60vh;
+  border-color: grey !important;
+}
+
+.abt-sty-cover .about-me article {
+  text-align: justify;
+  line-height: 4.2vh;
+  font-size: 2.4vh;
+}
+
+@media (max-width: 885px) {
+  .abt-sty-cover .about-me article {
+    text-align: justify;
+    line-height: 3.2vh;
+    font-size: 2.5vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .abt-sty-cover {
+    padding-top: 15vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .abt-sty-cover .about-me article {
+    text-align: justify;
+    line-height: 3vh;
+    font-size: 2vh;
+  }
+}
+
+@media (max-width: 370px) {
+  .abt-sty-cover .about-me article {
+    text-align: justify;
+    line-height: 2.5vh;
+    font-size: 1.9vh;
+  }
+}
+/*# sourceMappingURL=About.css.map */

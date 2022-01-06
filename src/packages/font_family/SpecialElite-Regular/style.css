@@ -1,0 +1,12 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "SpecialElite-Regular";
+  src: url("./fonts/SpecialElite-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/SpecialElite-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/SpecialElite-Regular.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/SpecialElite-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/SpecialElite-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/SpecialElite-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

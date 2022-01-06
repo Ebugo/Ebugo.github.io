@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,wBAAwB,CAAC;EACrB,MAAM,EAAE,IAAI;CAKf;;AAND,AAEI,wBAFoB,CAEpB,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,sBAAsB;CACtC",
+    "sources": [
+        "FirstShowCase.scss"
+    ],
+    "names": [],
+    "file": "FirstShowCase.css"
+}

@@ -1,0 +1,30 @@
+.scroller {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    cursor: pointer;
+  }
+/* width */
+.scroller::-webkit-scrollbar {
+    width: 0.5vh;
+}
+
+/* Track */
+.scroller::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px none; 
+    border-radius: 10px;
+}
+.scroller::-webkit-scrollbar-track:hover {
+    box-shadow: inset 0 0 5px grey; 
+}
+
+/* Handle */
+.scroller::-webkit-scrollbar-thumb {
+    background: #e83e8c;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroller::-webkit-scrollbar-thumb:hover {
+    background: none;
+    border: 1px solid #e83e8c; 
+}

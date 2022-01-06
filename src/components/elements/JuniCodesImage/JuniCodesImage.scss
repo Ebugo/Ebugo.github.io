@@ -1,0 +1,19 @@
+.codebugimage-sty-cover {
+    height: 80%;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 991px) {
+    .codebugimage-sty-cover {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .codebugimage-sty-cover {
+        display: none;
+    }
+}

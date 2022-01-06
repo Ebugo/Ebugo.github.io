@@ -25,7 +25,7 @@ const MobileMenu = ({onSelectMobileLinkSwitch}) => {
         Array.from(document.querySelectorAll('.main-nav .mobile-links')).map(element => {
             element.style.color = 'white';
           });
-          e.target.style.color = '#e83e8c';
+          e.target.style.color = '#81AFC5';
         toggleMenu()
         onSelectMobileLinkSwitch(link)
     }

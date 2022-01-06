@@ -53,7 +53,7 @@
 }
 
 .footer-sty-cover .testimonials a p:hover {
-  color: #e83e8c;
+  color: #81AFC5;
 }
 
 .footer-sty-cover .recommendation-cover {
@@ -81,7 +81,7 @@
 }
 
 .footer-sty-cover .recommendation-cover span:hover {
-  color: #e83e8c;
+  color: #81AFC5;
   -webkit-transform: scale(1);
           transform: scale(1);
   transform: scale(1);

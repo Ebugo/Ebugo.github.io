@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EAClB,KAAK,EAAE,KAAK;CACf",
-    "sources": [
-        "HeaderNav.scss"
-    ],
-    "names": [],
-    "file": "HeaderNav.css"
-}

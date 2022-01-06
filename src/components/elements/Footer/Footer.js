@@ -94,7 +94,7 @@ class Footer extends Component {
 
                 <div className="col-11 col-md-6 recommendation-cover mr-10">
                     <div className="recomendations m-0 col-12 row">
-                        {/* <p className="col-12 mb-0 p-0" style={{color: "#e83e8c"}}>Recomendations</p>
+                        {/* <p className="col-12 mb-0 p-0" style={{color: "#81AFC5"}}>Recomendations</p>
                         <div className="link col-12 p-0">
                             <span onClick={this.openRecomendation} data-link="https://www.linkedin.com/company/heckerbella-limited/" className="px-1 a">Heckerbella</span>
                             <span onClick={this.openRecomendation} data-link="https://www.linkedin.com/in/ndiecodes/" className="px-1 b">NdieCodes</span>

@@ -11,7 +11,7 @@
     .heading h3 {
         font-size: 3.5vh;
         text-decoration: underline;
-        text-decoration-color: #e83e8c;
+        text-decoration-color: #81AFC5;
         text-underline-position: under;
     }
     .contact-grid {
@@ -23,7 +23,7 @@
                 font-size: 2vh;
             }
             span {
-                color:#e83e8c;
+                color:#81AFC5;
                 font-weight: bold;
                font-family: "SpecialElite-Regular";
                 cursor: pointer;
@@ -37,7 +37,7 @@
             height: 100%;
             form {
                 button {
-                    border-color: #e83e8c;
+                    border-color: #81AFC5;
                     background: none;
                     color: white;
                     box-shadow: 5px 5px #494949;
@@ -46,16 +46,16 @@
                 }
                 button:hover {
                     border-color: white;
-                    color: #e83e8c;
+                    color: #81AFC5;
                 }
                 button:active {
                     border-color: white;
-                    color: #e83e8c;
+                    color: #81AFC5;
                     background: none;
                 }
                 button:focus {
                     border-color: white;
-                    color: #e83e8c;
+                    color: #81AFC5;
                     background: none;
                 }
             }

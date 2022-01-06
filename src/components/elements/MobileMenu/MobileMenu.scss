@@ -32,7 +32,7 @@
     bottom: 0;
     left: 0;
     right: -15px;
-    border-right: 1px solid #e83e8c;
+    border-right: 1px solid #81AFC5;
     transform-origin: 0 0;
     transform: skew(-14deg) translateX(-120%);
     transition: all .275s .1s;
@@ -102,22 +102,22 @@
 	transition: 1s all ease;
 }
 .main-nav .mobile-home {
-	color: #e83e8c;
+	color: #81AFC5;
 }
 .main-nav span:hover {
-	color: #e83e8c;
+	color: #81AFC5;
 	transform: scale(1.001);
 }
 .main-nav span:focus {
-	color: #e83e8c;
+	color: #81AFC5;
 	transform: scale(1.001);
 }
 .main-nav span:active {
-	color: #e83e8c;
+	color: #81AFC5;
 	transform: scale(1.001);
 }
 .mobile-home {
-	color: #e83e8c;
+	color: #81AFC5;
 }
 /* Burger Style: @see: https://codepen.io/CreativeJuiz/full/oMZNXy */
 .open-main-nav {
@@ -139,7 +139,7 @@
 	width: 28px;
 	height: 4px;
 	margin: 0 auto;
-	background: #e83e8c;
+	background: #81AFC5;
 	transform: skew(5deg);
 	transition: all .275s;
 }
@@ -149,7 +149,7 @@
 	content: '';
 	display: block;
 	height: 100%;
-	background: #e83e8c;
+	background: #81AFC5;
 	transition: all .275s;
 }
 
@@ -185,7 +185,7 @@
 	text-transform: uppercase;
 	font-weight: 500;
 	text-align: center;
-	color: #e83e8c;
+	color: #81AFC5;
 }
 .header-socialmedia-nav-mobile {
 	position: absolute;

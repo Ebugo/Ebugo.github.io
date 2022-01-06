@@ -13,8 +13,8 @@
 .contact-sty-cover .heading h3 {
   font-size: 3.5vh;
   text-decoration: underline;
-  -webkit-text-decoration-color: #e83e8c;
-          text-decoration-color: #e83e8c;
+  -webkit-text-decoration-color: #81AFC5;
+          text-decoration-color: #81AFC5;
   text-underline-position: under;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .contact-sty-cover .contact-grid .contact-info span {
-  color: #e83e8c;
+  color: #81AFC5;
   font-weight: bold;
   font-family: "SpecialElite-Regular";
   cursor: pointer;
@@ -48,7 +48,7 @@
 }
 
 .contact-sty-cover .contact-grid .contact-form form button {
-  border-color: #e83e8c;
+  border-color: #81AFC5;
   background: none;
   color: white;
   -webkit-box-shadow: 5px 5px #494949;
@@ -59,18 +59,18 @@
 
 .contact-sty-cover .contact-grid .contact-form form button:hover {
   border-color: white;
-  color: #e83e8c;
+  color: #81AFC5;
 }
 
 .contact-sty-cover .contact-grid .contact-form form button:active {
   border-color: white;
-  color: #e83e8c;
+  color: #81AFC5;
   background: none;
 }
 
 .contact-sty-cover .contact-grid .contact-form form button:focus {
   border-color: white;
-  color: #e83e8c;
+  color: #81AFC5;
   background: none;
 }
 

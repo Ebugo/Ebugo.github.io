@@ -1,14 +1,14 @@
 import React from 'react';
 import '../../../packages/animate.css';
-import './JuniCodesImage.css';
+import './PortfolioImage.css';
 
-const JuniCodesImage = () => {
+const PortfolioImage = () => {
     return (
         <div className="codebugimage-sty-cover">
             <img className="animated fadeIn codebug_img"
                  src="/images/personal/codebug.png" alt="Ebugo" />
 
-            <style jsx>{`
+            <style jsx="true">{`
                     .codebug_img {
                         height: 65vh;
                         margin-left: 5vh;
@@ -26,4 +26,4 @@ const JuniCodesImage = () => {
     )
 }
 
-export default JuniCodesImage;
+export default PortfolioImage;

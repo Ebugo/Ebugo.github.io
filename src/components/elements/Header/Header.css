@@ -19,7 +19,7 @@
 }
 
 .header-sty-cover .header-logo a {
-  color: #e83e8c;
+  color: #81AFC5;
   text-decoration: underline;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .header-sty-cover .header-link .color-tweak {
-  color: #e83e8c;
+  color: #81AFC5;
   -webkit-filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
           filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
 }
@@ -57,7 +57,7 @@
 }
 
 .header-sty-cover .header-link ul li:hover {
-  color: #e83e8c;
+  color: #81AFC5;
   -webkit-filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
           filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
   -webkit-transform: scale(1);
@@ -66,7 +66,7 @@
 }
 
 .header-sty-cover .header-link ul li:focus {
-  color: #e83e8c;
+  color: #81AFC5;
   -webkit-filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
           filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
   -webkit-transform: scale(1);
@@ -75,7 +75,7 @@
 }
 
 .header-sty-cover .header-link ul li:active {
-  color: #e83e8c;
+  color: #81AFC5;
   -webkit-filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
           filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
   -webkit-transform: scale(1);

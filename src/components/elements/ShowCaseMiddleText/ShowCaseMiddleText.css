@@ -25,8 +25,8 @@
 }
 
 .showcasemiddle-text-sty-cover button {
-  border-right: 0.13vh solid #e83e8c;
-  border-bottom: 0.13vh solid #e83e8c;
+  border-right: 0.13vh solid #81AFC5;
+  border-bottom: 0.13vh solid #81AFC5;
   -webkit-box-shadow: 0.66vh 0.66vh #e6e6e6;
           box-shadow: 0.66vh 0.66vh #e6e6e6;
   border-radius: 0.66vh;
@@ -42,10 +42,10 @@
 .showcasemiddle-text-sty-cover button:hover {
   border-right: 0.13vh solid white;
   border-bottom: 0.13vh solid white;
-  border-left: 0.13vh solid #e83e8c;
-  border-top: 0.13vh solid #e83e8c;
+  border-left: 0.13vh solid #81AFC5;
+  border-top: 0.13vh solid #81AFC5;
   background: none;
-  color: #e83e8c;
+  color: #81AFC5;
 }
 
 @media (max-width: 1200px) {

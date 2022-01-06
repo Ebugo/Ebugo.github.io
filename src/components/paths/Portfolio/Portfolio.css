@@ -12,8 +12,8 @@
 .portfolio-sty-cover .heading h3 {
   font-size: 3.5vh;
   text-decoration: underline;
-  -webkit-text-decoration-color: #e83e8c;
-          text-decoration-color: #e83e8c;
+  -webkit-text-decoration-color: #81AFC5;
+          text-decoration-color: #81AFC5;
   text-underline-position: under;
 }
 
@@ -57,7 +57,7 @@
 
 .portfolio-sty-cover .ibuild .block div h5 {
   font-size: 3vh;
-  border-left: 0.5vh solid  #e83e8c;
+  border-left: 0.5vh solid  #81AFC5;
   padding: 2vh 2vh 0vh 2vh;
 }
 

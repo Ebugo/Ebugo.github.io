@@ -34,7 +34,7 @@ const About = () => {
                         }}>
                         I am a team player and a goal-getter, I have solved major programming problems with different organizations, 
                         transparency and integrity is the key to my business success, i have a drive that keeps me going 
-                        <span style={{color: '#e83e8c'}}> "If someone has done it, then i can do better"</span>.
+                        <span style={{color: '#81AFC5'}}> "If someone has done it, then i can do better"</span>.
                     </article> */}
                 </div>
             </div>

@@ -8,7 +8,7 @@ const Portfolio = () => {
         {
             title: "Sifuse",
             url: "https://sifuse.com",
-            stack: "Laravel, React.js, Next.js, Tailwind, NGINX, SASS, JavaScript",
+            stack: "React/Next.js, Tailwind, NGINX, SASS, Laravel",
             desc: "This is a web app that connects startups and investors with various requirement testing feature to validate the right investment to allocate.",
         },
         {

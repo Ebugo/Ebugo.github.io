@@ -12,6 +12,12 @@ const Portfolio = () => {
             desc: "This is a web app that connects startups and investors with various requirement testing feature to validate the right investment to allocate.",
         },
         {
+            title: "Nuthoop",
+            url: "https://nuthoop.com",
+            stack: "React/Next.js, Material UI, SCSS",
+            desc: "This is a web app that seeks to improve the nutritional content of food being sold to the people of Lagos, Nigeria.",
+        },
+        {
             title: "ScoutBallers",
             url: "https://www.scoutballers.com/",
             stack: "HTML, CSS/Bootstrap, Javascript",

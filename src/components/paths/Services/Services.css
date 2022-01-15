@@ -20,7 +20,7 @@
   height: 60vh;
 }
 .services-sty-cover .services .block-1, .services-sty-cover .services .block-2 {
-  height: 30vh;
+  min-height: 30vh;
 }
 .services-sty-cover .services h5 {
   font-size: 2.8vh;
@@ -35,7 +35,7 @@
     padding-top: 15vh;
   }
   .services-sty-cover .services .block-1, .services-sty-cover .services .block-2 {
-    height: 30vh;
+    min-height: 30vh;
   }
   .services-sty-cover .services h5 {
     font-size: 2.5vh;
@@ -46,7 +46,7 @@
 }
 @media (max-width: 500px) {
   .services-sty-cover .services .block-1, .services-sty-cover .services .block-2 {
-    height: 28vh;
+    min-height: 28vh;
     padding: 0;
   }
   .services-sty-cover .services h5 {

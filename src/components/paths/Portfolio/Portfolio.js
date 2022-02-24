@@ -35,6 +35,12 @@ const Portfolio = () => {
             stack: "React/Nextjs, Scss, Material UI, Tailwind",
             desc: "A web app that helps you create a world where you never leave your home for groceries or worry over getting laundry done.",
         },
+        {
+            title: "Kobobid",
+            url: "https://kobobid.com/",
+            stack: "Nodejs, HTML, JS/JQuery, Websockets, CSS",
+            desc: "A fast-paced bidding website where you can win and purchase some of your favorite, AUTHENTIC items for as little as ONE Kobo by bidding.",
+        },
         // {
         //     title: "",
         //     url: "",

@@ -6,6 +6,12 @@ import './Portfolio.css';
 const Portfolio = () => {
     const portfolio = [
         {
+            title: "BlockchainHub Africa",
+            url: "https://blockchainhub.africa/",
+            stack: "React/Next.js, Tailwind, CSS",
+            desc: "Advancing Web3 adoption through talent acceleration and innovative blockchain-based solutions in Africa.",
+        },
+        {
             title: "Sifuse",
             url: "https://sifuse.com",
             stack: "React/Next.js, Tailwind, NGINX, SASS, Laravel",
